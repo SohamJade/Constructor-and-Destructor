@@ -1,3 +1,4 @@
+// consturct inside class.
 #include<iostream>
 using namespace std;
 
