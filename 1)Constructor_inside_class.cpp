@@ -10,10 +10,13 @@ class date
     public:
     date()
     {
+        cout<<"Enter date: ";
+        cin>>d;
+        cout<<"Enter month: ";
+        cin>>m;
+        cout<<"Enter  Year: ";
+        cin>>y;
         cout<<"Today's Date is: "<<endl;
-        d = 5;
-        m = 9;
-        y = 24;
         cout<<d<<"/"<<m<<"/"<<y;
     }
 };
@@ -23,6 +26,9 @@ int main()
 }
 
 /*
+Enter date: 5
+Enter month: 9
+Enter  Year: 24
 Today's Date is: 
 5/9/24
 */
