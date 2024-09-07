@@ -71,6 +71,15 @@ public:
     }
 };
 ```
+## Differences
+| Features                | Constructor                    | Destructor                     |
+|---------------------------|----------------------------------------|--------------------------------------|
+| **Purpose**            | Initializes the object	 | Cleans up before object is destroyed |
+| **Name**   | Same as class name	 | Same as class name but preceded by `~` |
+| **Called When**| Object is created            | Object is destroyed.  |
+| **Parameters**        | Can take parameters            | Cannot take parameters            |
+| **Overloading**| Can be overloaded (multiple constructors) | Cannot be overloaded (only one destructor) |
+
 # Algorithms:
 ### Constructor inside class
 1) Start
